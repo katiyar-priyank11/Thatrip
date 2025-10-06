@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ThatTrip - Your ultimate travel companion. Discover amazing destinations, plan your dream vacation with expert guidance, and create unforgettable memories.">
+    <meta name="keywords" content="travel, tourism, vacation, destinations, tour packages, adventure, holiday">
+    <meta name="author" content="ThatTrip">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="ThatTrip - Your Journey Begins Here">
+    <meta property="og:description" content="Discover amazing destinations and plan your dream vacation with ThatTrip">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/logo/logo.svg">
+
+    <title>ThatTrip - Your Journey Begins Here | Travel & Tourism</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/logo/logo.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-plane"></i>
+                <span>ThatTrip</span>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#destinations" class="nav-link">Destinations</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+
+            <!-- Animated floating travel icons -->
+            <div class="hero-shapes">
+                <div class="shape"><i class="fas fa-plane"></i></div>
+                <div class="shape"><i class="fas fa-globe-americas"></i></div>
+                <div class="shape"><i class="fas fa-map-marked-alt"></i></div>
+                <div class="shape"><i class="fas fa-compass"></i></div>
+                <div class="shape"><i class="fas fa-suitcase-rolling"></i></div>
+                <div class="shape"><i class="fas fa-umbrella-beach"></i></div>
+                <div class="shape"><i class="fas fa-mountain"></i></div>
+                <div class="shape"><i class="fas fa-camera"></i></div>
+            </div>
+
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">ThatTrip - Your Journey Begins Here</h1>
+                <p class="hero-subtitle animate-fade-in-delay">Discover breathtaking destinations and create unforgettable memories with expert guidance</p>
+                <div class="hero-buttons animate-fade-in-delay-2">
+                    <a href="#contact" class="btn btn-primary">Plan Your Adventure</a>
+                    <a href="#destinations" class="btn btn-secondary">Explore Destinations</a>
+                </div>
+            </div>
+
+            <!-- Animated waves at bottom -->
+            <div class="hero-wave">
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About ThatTrip</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Your Trusted Travel Partner</h3>
+                        <p>At ThatTrip, we believe that travel is more than just visiting new places—it's about creating lasting memories, experiencing diverse cultures, and discovering the world's hidden gems. With over 15 years of expertise in the travel industry, we've helped thousands of travelers turn their dream vacations into reality.</p>
+                        <p>Our mission is to provide personalized, hassle-free travel experiences that exceed expectations. From breathtaking destinations to seamless logistics, we handle every detail so you can focus on what matters most—enjoying your journey.</p>
+                        <p>What sets us apart is our commitment to sustainable tourism, expert local guides, and 24/7 customer support. We're not just a travel company; we're your companions on every adventure.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-globe-americas"></i>
+                            <h4 class="stat-number" data-target="150">0</h4>
+                            <p>Destinations</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <h4 class="stat-number" data-target="50000">0</h4>
+                            <p>Happy Travelers</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <h4 class="stat-number" data-target="15">0</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-star"></i>
+                            <h4 class="stat-number" data-target="4.9">0</h4>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Destinations Section -->
+        <section id="destinations" class="section destinations-section">
+            <div class="container">
+                <h2 class="section-title">Explore Our Top Destinations</h2>
+                <div class="destinations-grid" id="destinations-grid">
+                    <!-- Destinations will be loaded dynamically from content.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid" id="services-grid">
+                    <!-- Services will be loaded dynamically from content.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-choose-us" class="section why-choose-section">
+            <div class="container">
+                <h2 class="section-title">Why Travel With Us</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-tag"></i>
+                        <h3>Best Price Guarantee</h3>
+                        <p>Competitive pricing with no hidden fees. We match prices to ensure you get the best deal.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Expert Local Guides</h3>
+                        <p>Licensed professionals with deep cultural insights and multilingual support.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Customer Support</h3>
+                        <p>Round-the-clock assistance and emergency support through multiple channels.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-calendar-check"></i>
+                        <h3>Flexible Booking</h3>
+                        <p>Easy modifications, fair cancellation policies, and convenient payment plans.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Safety First</h3>
+                        <p>Comprehensive travel insurance, strict safety protocols, and vetted partners.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Personalized Experience</h3>
+                        <p>Custom itineraries tailored to your preferences with attention to every detail.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Sustainable Tourism</h3>
+                        <p>Eco-friendly practices supporting local communities and responsible travel.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h3>Hassle-Free Travel</h3>
+                        <p>Complete planning and arrangements handled for a smooth, worry-free experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <h2 class="section-title">What Our Travelers Say</h2>
+                <div class="swiper testimonials-carousel">
+                    <div class="swiper-wrapper" id="testimonials-wrapper">
+                        <!-- Testimonials will be loaded dynamically from content.js -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Enquiry Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Travel Street, Tourism District<br>New York, NY 10001, USA</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@thattrip.com<br>support@thattrip.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Enquiry Form -->
+                    <div class="enquiry-form">
+                        <h3>Plan Your Dream Vacation</h3>
+                        <form id="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="destination">Destination Interest</label>
+                                <select id="destination" name="destination">
+                                    <option value="">Select a destination</option>
+                                    <option value="bali">Bali, Indonesia</option>
+                                    <option value="paris">Paris, France</option>
+                                    <option value="maldives">Maldives</option>
+                                    <option value="dubai">Dubai, UAE</option>
+                                    <option value="custom">Custom Destination</option>
+                                    <option value="not-sure">Not Sure Yet</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="adults">Adults</label>
+                                    <input type="number" id="adults" name="adults" min="1" value="1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="children">Children</label>
+                                    <input type="number" id="children" name="children" min="0" value="0">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="travel-date">Travel Date</label>
+                                <input type="date" id="travel-date" name="travel_date">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget range</option>
+                                    <option value="under-1000">Under $1,000</option>
+                                    <option value="1000-3000">$1,000 - $3,000</option>
+                                    <option value="3000-5000">$3,000 - $5,000</option>
+                                    <option value="5000-10000">$5,000 - $10,000</option>
+                                    <option value="above-10000">Above $10,000</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message / Special Requests</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span class="btn-text">Send Enquiry</span>
+                                <span class="btn-loading" style="display: none;">
+                                    <i class="fas fa-spinner fa-spin"></i> Sending...
+                                </span>
+                            </button>
+                        </form>
+                        <div id="form-notification" class="form-notification"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-plane"></i>
+                        <span>ThatTrip</span>
+                    </div>
+                    <p class="footer-tagline">Your journey to extraordinary destinations begins here.</p>
+                    <p class="footer-copyright">&copy; 2025 ThatTrip. All rights reserved.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Popular Destinations</h4>
+                    <ul class="footer-links">
+                        <li><a href="#destinations">Bali, Indonesia</a></li>
+                        <li><a href="#destinations">Paris, France</a></li>
+                        <li><a href="#destinations">Maldives</a></li>
+                        <li><a href="#destinations">Dubai, UAE</a></li>
+                        <li><a href="#destinations">Santorini, Greece</a></li>
+                        <li><a href="#destinations">Tokyo, Japan</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Connect With Us</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-amex"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="./js/config.js"></script>
+    <script src="./data/content.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/animations.js"></script>
+    <script src="./js/form.js"></script>
+
+</body>
+</html>
